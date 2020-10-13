@@ -7,16 +7,10 @@ This project is the python2 backend server for the Android InsecureBankv2 applic
 Python required libraries
 -----
 
-Install the below libraries using: easy_install <libraryname>
+Install the 
+pip3 install -r reqire3.txt
 
-* flask
-* flask-sqlalchemy
-* simplejson
-* cherrypy
-* web.py
 
-Alternatively just use:
-pip install -r requirements.txt
 
 Running the python server
 -----
@@ -26,8 +20,8 @@ Make sure you have python2 installed. Change the current directory to the AndroL
 
 Use the below syntax to run the HTTP server
 
-	python app.py
+	python3 app.py
 
 Use the below syntax to view the possible arguments
 
-	python app.py --help
+	python3 app.py --help
